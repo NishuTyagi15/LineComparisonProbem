@@ -19,6 +19,17 @@ public class LineLengths {
         } 
         else {
             System.out.println("Lines are not Equal");
-        }        
+        }
+        
+        //UC3
+        if (Double.compare(Length1, Length2) == 0) {
+            System.out.println("Both Lines are Equal");
+        }
+        else if (Double.compare(Length1, Length2) < 0) {
+            System.out.println("Length1 is Less than Length2");
+        }
+        else {
+            System.out.println("Length2 is greater than Length1");
+        }   
 	}
 }
